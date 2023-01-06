@@ -1,7 +1,8 @@
 # soundDMR
 
-There are a number of steps in our differential methylation pipeline that run through the use of in-house created scripts.  
-Make sure you have access to the latest version of the package and go through the installation steps below. This only needs to be done once. 
+There are a number of steps in our differential methylation pipeline that run through the use of in-house scripts.  
+Make sure you have access to the latest version of the package and go through the installation steps below. 
+This only needs to be done once. 
 
 
 <div class=".pkgdown-release">
