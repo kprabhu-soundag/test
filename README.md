@@ -4,6 +4,9 @@ There are a number of steps in our differential methylation pipeline that run th
 Make sure you have access to the latest version of the package and go through the installation steps below. 
 This only needs to be done once. 
 
+# Pre-requisites
+We need to run Megalodon/Deep-Signal Plant to calculate methylation levels at each cytosine for each individual.  If focussing on a small part fo the genome, these bed files must be subset using bedtools intersect to focus on specific regions of the genome.
+
 
 <div class=".pkgdown-release">
 
