@@ -26,3 +26,9 @@ library(sounDMR)
 
 - [tidyverse](https://tidyverse.org)
 - [reshape2](https://www.rdocumentation.org/packages/reshape2/versions/1.4.4)
+- [changepoint](https://cran.r-project.org/web/packages/changepoint/changepoint.pdf)
+- [lme4](https://cran.r-project.org/web/packages/lme4/lme4.pdf)
+- [Formula](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/formula)
+- [glmmTMB](https://cran.r-project.org/web/packages/glmmTMB/glmmTMB.pdf)
+
+
