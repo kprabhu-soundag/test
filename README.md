@@ -16,12 +16,6 @@ install.packages("sounDMR")
 
 ## Usage
 
-``` r
-
-library(sounDMR)
-
-```
-
 `library(soundDMR)` will load the core packages:
 
 - [tidyverse](https://tidyverse.org)
@@ -31,4 +25,36 @@ library(sounDMR)
 - [Formula](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/formula)
 - [glmmTMB](https://cran.r-project.org/web/packages/glmmTMB/glmmTMB.pdf)
 
+``` r
+library(sounDMR)
 
+#>Loading required package: changepoint
+#>Loading required package: zoo
+#>
+#>Attaching package: ‘zoo’
+#>
+#>The following objects are masked from ‘package:base’:
+#>
+#>    as.Date, as.Date.numeric
+#>
+#>Successfully loaded changepoint package version 2.2.4
+#> See NEWS for details of changes.
+#>Loading required package: Formula
+#>Loading required package: lme4
+#>Loading required package: Matrix
+#>Loading required package: reshape2
+#>Loading required package: tidyverse
+#>── Attaching packages ────────────────────────────────────────── tidyverse 1.3.2 ──
+#>✔ ggplot2 3.4.0      ✔ purrr   0.3.5 
+#>✔ tibble  3.1.8      ✔ dplyr   1.0.10
+#>✔ tidyr   1.2.1      ✔ stringr 1.4.1 
+#>✔ readr   2.1.3      ✔ forcats 0.5.2 
+#>── Conflicts ───────────────────────────────────────────── tidyverse_conflicts() ──
+#>✖ tidyr::expand() masks Matrix::expand()
+#>✖ dplyr::filter() masks stats::filter()
+#>✖ dplyr::lag()    masks stats::lag()
+#>✖ tidyr::pack()   masks Matrix::pack()
+#>✖ tidyr::unpack() masks Matrix::unpack()
+#>Loading required package: glmmTMB
+
+```
